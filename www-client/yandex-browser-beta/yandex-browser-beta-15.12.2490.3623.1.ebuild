@@ -12,7 +12,6 @@ LICENSE="EULA"
 SLOT="0"
 
 MY_PV=$(replace_version_separator 4 '-' ) 
-echo ${MY_PV}
 SRC_URI="
 	amd64? ( http://repo.yandex.ru/yandex-browser/deb/pool/main/y/yandex-browser-beta/${PN}_${MY_PV}_amd64.deb -> ${P}.deb )
 "
